@@ -22,4 +22,26 @@
 
 .item {
     width: 30%;
+    height: auto;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: inline;
+}
+
+.img-hover {
+    display: none;
+    z-index: 1;
+}
+
+.heart {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: #FFF;
+    position: absolute;
+    top: 3%;
+    right: 0;
 }
