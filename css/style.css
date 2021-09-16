@@ -30,11 +30,13 @@ img {
     display: inline;
 }
 
+/* IMA OVER AREA */
 .img-hover {
     display: none;
     z-index: 1;
 }
 
+/* WISHLIST AREA */
 .heart {
     width: 22px;
     height: 22px;
@@ -45,6 +47,7 @@ img {
     right: 0;
 }
 
+/* LABEL AREA */
 .label {
     position: absolute;
     left: 0;
@@ -62,4 +65,23 @@ img {
 .sustainability {
     padding: 1px 3px;
     background-color: #00875a;
+}
+
+/* DESCRIPTION ITEMS AREA */
+.brand-item {
+    font-size: 10px;
+    color: #7a7a7a;
+}
+
+.name-item,.price-item {
+    font-size: 12px;
+}
+
+.price-item {
+    color: #ff0000;
+}
+
+.price-item span {
+    color: #000000;
+    text-decoration: line-through;
 }
