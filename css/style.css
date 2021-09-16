@@ -10,8 +10,7 @@
     width: 80%;
     margin: auto;
     padding: 40px;
-/*     background-color: rgb(153, 153, 153);
- */}
+}
 
 /* ROW */
 .row-items li{
@@ -81,6 +80,7 @@ img {
     padding: 1px 3px;
     background-color: #eb0037;
 }
+
 .sustainability {
     padding: 1px 3px;
     background-color: #00875a;
