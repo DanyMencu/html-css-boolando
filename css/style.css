@@ -23,6 +23,11 @@
     width: 30%;
     height: auto;
     position: relative;
+    margin: 20px 0;
+}
+
+.middle {
+    margin: 0 5px;
 }
 
 img {
@@ -30,21 +35,32 @@ img {
     display: inline;
 }
 
-/* IMA OVER AREA */
-.img-hover {
-    display: none;
+/* /* IMG OVER AREA */
+.img-top {
+    position: absolute;
     z-index: 1;
+}
+
+.item:hover .img-top{
+    display: none;
+}
+
+.item:hover .heart {
+    color: #eb0037;
 }
 
 /* WISHLIST AREA */
 .heart {
     width: 22px;
     height: 22px;
-    text-align: center;
-    background-color: #FFF;
     position: absolute;
     top: 3%;
     right: 0;
+    z-index: 2;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    background-color: #FFF;
 }
 
 /* LABEL AREA */
@@ -52,6 +68,7 @@ img {
     position: absolute;
     left: 0;
     bottom: 16%;
+    z-index: 2;
     font-size:10px;
     font-weight: bold;
     color: #FFF;
