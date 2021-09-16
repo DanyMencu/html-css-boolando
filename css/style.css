@@ -75,6 +75,7 @@ img {
 
 .name-item,.price-item {
     font-size: 12px;
+    font-weight: bold;
 }
 
 .price-item {
