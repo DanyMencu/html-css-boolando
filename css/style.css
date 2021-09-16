@@ -9,7 +9,17 @@
 /* MAIN CONTAINER */
 .container {
     width: 80%;
+    margin: auto;
     padding:0 10px;
+    background-color: rgb(153, 153, 153);
 }
 
 /* ROW */
+.row-items li{
+    display: inline-block;
+    list-style: none;
+}
+
+.item {
+    width: 30%;
+}
