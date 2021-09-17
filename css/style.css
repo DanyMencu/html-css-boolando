@@ -16,20 +16,18 @@
 .row-items li{
     display: inline-block;
     list-style: none;
-}
-
-.item {
     width: 30%;
     height: auto;
     position: relative;
     margin: 20px 0;
 }
 
+
 .middle {
     margin: 0 5px;
 }
 
-img {
+.item img {
     width: 100%;
     display: inline;
 }
@@ -42,10 +40,6 @@ img {
 
 .item:hover .img-top{
     display: none;
-}
-
-.item:hover .heart {
-    color: #eb0037;
 }
 
 /* WISHLIST AREA */
@@ -64,13 +58,17 @@ img {
     font-size: x-large;
 }
 
+.item:hover .heart {
+    color: #eb0037;
+}
+
 /* LABEL AREA */
 .label {
     position: absolute;
     left: 0;
     bottom: 12%;
     z-index: 2;
-    font-size:10px;
+    font-size:12px;
     font-weight: bold;
     color: #FFF;
 }
